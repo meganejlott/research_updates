@@ -206,6 +206,8 @@ The peak in *Vibrio* abundance appears again to correspond with increases in AOD
 
 ![Figure 7. Correlations Between Biotic and Abiotic Factors in the SLE](./chapter1/envr_vars/sle_corrplot.png)
 
+
+
 #### Linear Regression Between Biotic and Abiotic Factors {.tabset .tabset-fade .tabset-pills}
 
 ##### Vibrio Vs. AOD
