@@ -1,0 +1,61 @@
+---
+title: "CHAPTER 2"
+output: html_document
+---
+
+## Genomic Investigation into the Community-Level Interactions between Bacteria and Algae in the Indian River Lagoon and St. Lucie Estuaries
+
+Megan Lott^1^, Michael Wetz^2^, Erin K. Lipp^1^
+
+^1^Department of Environmental Health Sciences, University of Georgia; ^2^Department of Life Sciences, Texas A&M University at Corpus Christi 
+
+Target Journal: Frontiers in Microbiology (Impact Factor 4.26)
+
+# MOTIVATION
+
+Interactions between bacteria and algae have ecological implications for the productivity and stability of aquatic environments. Through their co-evolution, bacteria and phytoplankton have formed complex relationships, ranging from mutualism to competition, to optimize their acquisition of macro- and micro- nutrients. Research has demonstrated that bacteria play an important role in the biological control of algal blooms, and that their associations with phytoplankton are predominately species-specific. Despite decades of research exploring these associations, there is limited understanding of the underlying mechanisms and functional implications of bacterial-algal interactions in the natural environment. 
+
+Until recently, our understanding of bacterial-algal interactions has relied on traditional culture-based and microscopic methods. Laboratory observations have relied on unialgal or unibacterial cultures to tease apart associations that, in the natural environment, may be complex and influenced by multiple biotic and abiotic factors. Field studies have examined natural assemblages of bacterial and algal communities, but previous studies have been constrained to the resolution and scale of traditional or nonmolecular techniques. 
+Coupled with bioinformatics and predictive modeling, scientists are utilizing emerging -omics technologies to revisit basic questions on bacterial-algal interactions. Next generation sequencing (NGS) methods can be utilized as a novel tool to examine community-level associations between bacteria and algae with higher resolution than traditional culture-based methods. 
+
+Investigating bacterial-algal interactions improves our understanding of the role bacteria play in shaping the ecology of phytoplankton. By identifying common partners in community assemblages in natural waters, we may be better positioned to ask questions about the functional relationships between these microorganisms.
+
+# CONTEXT 
+
+Stretching across Florida’s east coast, the Indian River Lagoon (IRL) is an estuary of national significance and is protected by the USA National Estuaries Program. In recent years, the IRL has suffered from dense and damaging algal blooms, including those caused by the novel brown tide algae Aureoumbra lagunensis and by the toxic blue-green algae Microcystis aeruginosa. 
+
+# RESEARCH OBJECTIVES
+**1.	Utilize molecular methods to identify the correlation between bacterial and phytoplankton abundance in natural waters.**
+
+We aim to resolve the relationships between bacterial and phytoplankton abundance by examining the correlations between traditional measures of abundance and biomass (microscopic counts, chlorophyll a and phaeopigments) and novel measures of abundance (total 16S and 18S abundance). 
+
+**2.	Characterize the composition of planktonic and phytoplankton-associated bacterial communities in the IRL and SLE.**
+
+We aim to identify symbiotic partners of bacteria and microalgae by examining species-level changes in the 16S and 18S microbial communities in the natural environment. We expect the particle-attached bacterial community to be specialized and significantly different than that of the free-living bacteria(Jonathan J. Cole 1982; Main et al. 2015)
+
+# METHODS
+
+**Sampling Strategy:** Water samples were collected in triplicate from three locations in both the IRL and the SLE. Samples were collected weekly between June 2019 and July 2019 (n = 144).
+
+In the Northern Indian River Lagoon (IRL), samples were collected from three locations: Scottsmoor Landing (IRL 1), Titusville Pier (IRL 2), and the Beacon 42 Boat Ramp (IRL 3). Samples were collected on the following dates: 6/10, 6/17, 6/24, 7/1, 7/8, 7/15, 7/22, 7/29. The IRL is not heavily influenced by tidal mixing.
+
+In the St. Lucie Estuary (SLE), samples were collected from three locations: Snug Harbor Yacht Club (SLE 1), Stuart Boardwalk (SLE 2), and Leighton Park (SLE 3). Samples were collected on the following dates: 6/5, 6/12, 6/19, 6/26, 7/3, 7/17, 7/24, 7/31. The SLE is tidally influenced. Samples were collected during the outgoing tide.
+
+![Figure 1. Sample Locations in the IRL and SLE](./chapter1/study_sites.png)
+
+**Sample Collection:** Water samples were collected in triplicate and pre-filtered through 200 µm mesh to remove large debris and detritus. Samples were stored in 1 L sterile polypropylene bottles and stored on ice, in the dark.
+
+**Chlorophyll a and Phaeopigments:** Bulk water samples (25 mL) were filtered through 25 mm GF/F filters at low pressure (≤ 5 in Hg). Filters were stored in 5 mL polyethylene tubes at -20°C and store until analysis. Filters will be analyzed by EPA Method 445.0 using acetone extraction and fluorimeter.
+
+**Quantification of Algal Abundance by Microscopy:** Bulk water samples (5 mL) were fixed with 200 µL of acid Lugols in glass vials and stored at room temperature in the dark. Abundance of microalgae was quantified microscopically using a hemocytometer. 
+
+**Quantification of Algal and Bacterial Abundance by Flow Cytometry:** Bulk water samples (5 mL) were fixed with glutaraldehyde at 1% and store at -80°C until analysis by flow cytometry.
+
+**Collection of Sample DNA:** Water samples were size fractionated in series onto polycarbonate filters (2. 0 µm) and Sterivex filters (0.22 µm). Filters were stored at -20°C until extraction. 
+
+**DNA Extraction:** Sample DNA was extracted from stored polycarbonate filters (2.0 µm) using the Qiagen PowerSoil Pro Kit. DNA will be extracted from stored Sterivex filters (0.22 µm) using phenol:chloroform:isoamyl extractions. 
+
+**Next Generation Sequencing Methods:** Bacterial 16S rRNA will be amplified using universal 16S primers 515F/806R(Caporaso et al. 2011) targeting the V4V5 hypervariable region. 18S rRNA will be amplified using the universal 18S primers EukA/329R(Gobler et al. 2013). Genomic libraries will be prepared with custom Illumina adapters with barcodes. The genomic libraries will be sequenced by the Georgia Genomics and Bioinformatics Core (GGBC), using Illumina MiSeq PE300. Sequence data will be analyzed in R using the DADA2 pipeline. 
+
+
+

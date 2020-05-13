@@ -1,8 +1,12 @@
-# Overview
+# WELCOME!
 
-This is a starter template for a data analysis exercise, containing data, a codebook and an RMarkdown file.
 
-It is set up as a small website.
+Welcome to our Committee Meeting Website! This website is intended to help guide our remote committee meeting as we discuss research and schorship. 
 
-This is a Github template repository. The best way to get it and start using it is [by following these steps.](https://help.github.com/en/articles/creating-a-repository-from-a-template)
+The goals of our committee meeting are: 
 
+1. Discuss updates on Research, Scholarship, and Service. 
+2. Discuss Prospectus for Approval. 
+3. Discuss the Comprehensive Exam. 
+
+The website can be found [here](https://meganejlott.github.io/research_updates/)

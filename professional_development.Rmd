@@ -1,0 +1,43 @@
+---
+title: Professional Development
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+```{r load libraries, include=FALSE, echo = FALSE}
+library(tidyverse)
+library(kableExtra )
+```
+
+# Funding Applications 
+
+
+```{r funding applications, echo = FALSE}
+funding_applications = read.csv("./funding_applications.csv")
+funding_applications %>% knitr::kable(caption = "Status of all funding applications to date.") %>% kable_styling()
+```
+
+
+
+# Presentations 
+
+```{r presentation, echo = FALSE}
+presentations = read.csv("./presentations.csv")
+presentations %>% knitr::kable(caption = "Presentations to date.") %>% kable_styling()
+
+```
+
+
+# Metorship 
+
+**University of Georgia (2018 - Present**
+Mentored for UGA Undergraduate Academic Research (Dpt. Environmental Health Sciences) and for UGA CURO Assistantship
+
+**University of North Carolina at Chapel Hill (2017 - 2018)**
+Graduate Student Mentor, Environmental Health Microbiology Laboratory
+Trained seven undergraduate students in environmental microbiology, mentored for UNC Undergraduate Academic Research (Dpt. of Biology, Dpt. of Chemistry), for UNC Honors Research, and for UNC Summer Undergraduate Research Fellowship
+
+# Committees 
+
+College of Public Health Course Approval Committee (2019 - 2020)

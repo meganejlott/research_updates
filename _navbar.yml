@@ -1,13 +1,26 @@
-title: "Data Analysis Exercise Website"
+title: "M. Lott"
 type: inverse
 left:
-  - text: "Analyses"
+  - text: "Academic & Professional Development"
     menu:
-      - text: "Continuous Outcome Analysis"
-        href: ./Continuous_Outcome_Analysis.html
-      - text: "Future Analysis"
-  - text: "About the Author"
-    href: ./Author.html
+      - text: "Academic Progress"
+        href: ./academic_progress.html
+      - text: "Professional Development"
+        href: ./professional_development.html
+  - text: "Outreach & Service"
+    href: ./Outreach.html
+  - text: "Dissertation Research"
+    menu:
+      - text: "Introduction"
+        href: ./intro.html
+      - text: "Chapter 1"
+        href: ./chapter_1.html
+      - text: "Chapter 2"
+        href: ./chapter_2.html
+      - text: "Chapter 3"
+        href: ./chapter_3.html
+  - text: "Additional Research"
+    href: ./additional_research.html
 right:
   - icon: fa-github fa-lg
-    href: URL-TO-THIS-REPOSITORY-HERE
+    href: https://meganejlott.github.io/research_updates/

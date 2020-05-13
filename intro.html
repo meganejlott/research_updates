@@ -12,7 +12,7 @@
 
 
 
-<title>Committee Meeting May 2020</title>
+<title>INTRODUCTION</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -234,6 +237,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -241,6 +307,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -316,21 +392,25 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Committee Meeting May 2020</h1>
+<h1 class="title toc-ignore">INTRODUCTION</h1>
 
 </div>
 
 
-<p>Welcome to our Committee Meeting Website! This website is intended to help guide our remote committee meeting as we discuss research and schorship.</p>
-<p>The goals of our committee meeting are:</p>
-<ol style="list-style-type: decimal">
-<li>Discuss updates on Research, Scholarship, and Service.</li>
-<li>Discuss Prospectus for Approval.</li>
-<li>Discuss the Comprehensive Exam.</li>
-</ol>
+<p><strong>Interactions between bacteria and algae in aquatic environments: a public health perspective</strong></p>
+<p>Megan Lott PhD Student, University of Georgia Department of Environmental Health Sciences</p>
+<p>“[The] phycosphere is one of the most ignored and distinctive habitats for bacteria.” - Ramanan et al. 2015</p>
+<p>Bacteria and algae are the numerically dominate organisms in the aquatic environment. Through their co-evolution, these organisms have derived a wide range of symbiotic interactions that influence one another’s physiology and metabolism. Interactions at the phycosphere can have consequences for the growth or decline of individual partners; on a community scale, these interactions can have broader implications for ecological stability and biogeochemical processing.</p>
+<p>The relationships between bacteria and algae have intrigued and perplexed generations of scientists. The “Omics” revolution has improved the resolution and scale at which researchers investigate the complex interactions between bacteria and algae in natural waters. Coupled with traditional culture-based and biochemical analyses, -omics approaches can be used to identify functional relationships between organisms in complex communities.</p>
+<p>Through these studies, we revisit basic questions on bacterial-algal interactions, utilizing emerging -omics technologies to provide new insight and clarity on the dynamics between aquatic microbes. Through the lenses of environmental and public health microbiology, our goal is to understand these interactions and their implications for human and ecological health.</p>
+<p><strong>CHAPTER 1:</strong> Bloom or Bust: Vibrio Ecology in the Indian River Lagoon and St. Lucie Estuaries</p>
+<p><strong>CHAPTER 2:</strong> Genomic Investigation into the Community-Level Interactions between Bacteria and Algae in the Indian River Lagoon and St. Lucie Estuaries</p>
+<p><strong>CHAPTER 3:</strong> Assessment of Microbial Fecal Pollution in Watersheds Impacted by Re-Occurring Algal Blooms in Eastern Florida</p>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -363,6 +443,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

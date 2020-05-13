@@ -1,0 +1,246 @@
+---
+title: "CHAPTER 1"
+output: html_document
+---
+
+## Bloom or Bust: *Vibrio* Ecology in the Indian River Lagoon and St. Lucie Estuaries 
+
+Megan Lott^1^, Michael Wetz^2^, Erin K. Lipp^1^
+
+^1^Department of Environmental Health Sciences, University of Georgia; ^2^ Department of Life Sciences, Texas A&M University at Corpus Christi 
+
+Target Journal: Applied and Environmental Microbiology (Impact Factor 4.08)
+
+# ABSTRACT 
+
+*Vibrio* spp. are a group of human pathogenic bacteria that are ubiquitous in marine environments. Building evidence suggests that ephemeral events may stimulate rapid *Vibrio* growth. Within a short period of time, the abundance of pathogenic *Vibrio* may quickly exceed an infectious dose for *Vibrio*-associated illnesses. *Vibrio* blooms are an important, but underappreciated, factor in understanding exposure and illness risk. 
+
+This study aims to understand the drivers of *Vibrio* bloom dynamics. Using a time series approach, we examine *Vibrio* ecology in response to pulses of atmospheric Saharan dust and phytoplankton dynamics in Florida's Indian River Lagoon system. 
+
+Water samples were collected in triplicate from three locations in the Northern Indian River Lagoon (IRL) and the St. Lucie Estuary (SLE). Samples were collected weekly between June and July 2019 (n = 144) to examine *Vibrio* and phytoplankton abundance in relation to environmental variables. 
+
+In the IRL, *Vibrio* bloomed from 5.8 x 10^2^  to 1.9 x 10^4^ CFU/1mL between June 10 and June 17, returning to 5.1 x 10^2^  CFU/1mL on July 1 (IRL Site 1). In the SLE, *Vibrio* bloomed from 3.9 x 10^2^ to 3.9 x 10^4^ CFU/1mL between June 5 and June 26, returning to 1.8 x 10^2^ CFU/1mL on July 31 (SLE Site 1). 
+
+We examined these dynamics in *Vibrio* abundance in relation to water temperature, air temperature, pH, salinity, AOD, and precipitation. Based on the Boruta algorithm and Pearson's Correlation, the normalized AOD on the day of sampling is a confirmed variable of importance and is significantly correlated with *Vibrio* abundance (R^2^ = 0.45, p < 0.01). 
+
+*Vibrio* blooms in the IRL and SLE correspond with pulses of Saharan dust (increases in AOD). The resulting *Vibrio* blooms have implications for public health risks. Dynamics in *Vibrio* communities will be further resolved by sequencing of the *Vibrio* heat shock protein 60 (hsp60). 
+
+
+# RESEARCH OBJECTIVES 
+
+This study aims to understand the drivers of *Vibrio* bloom dynamics. Using a time series approach, we examined *Vibrio* ecology between June and July 2019 in Florida's Indian River Lagoon (IRL) and St. Lucie Estuaries. 
+
+1.	**Objective Identify environmental drivers of *Vibrio* bloom dynamics in estuarine environments.** 
+
+The abundance of Vibrio spp. has been shown to increase rapidly in response to changes in biotic and abiotic factors of the aquatic environment. Numerous studies have reported correlations between Vibrio abundance and phytoplankton dynamics (Hsieh, Fries, and Noble 2007; Jesser and Noble 2018; Main et al. 2015; Turner et al. 2009). Evidence suggests that algal blooms may stimulate Vibrio growth and improve survival (Greenfield et al. 2017).In eutrophic marine waters, pulses of atmospheric-transported Saharan dust have been shown to promote Vibrio bloom formation (Borchardt et al. 2019; Westrich et al. 2018). These pulses of dust deposit micronutrients and particulate matter that are likely to drive Vibrio blooms. In this study, we examine how ephemeral events may stimulate rapid Vibrio growth.
+
+2.	**Examine the changes in *Vibrio* community composition during the succession of a *Vibrio* bloom event.** 
+Using novel genomic sequencing of the Vibrio heat shock protein 60 (hsp60), we aim to identify species-level variations in Vibrio communities during a bloom event (Jesser and Noble 2018). We expect that opportunistic species of Vibrio will be predominant during a bloom event. We also expect that the particle-attached Vibrio community will be specialized and significantly different from that that of the free-living, planktonic Vibrio community (Jonathan J. Cole 1982; Main et al. 2015).  
+
+
+3.	**Evaluate changes in abundance of *Vibrio* spp. related to human health, based on measured ecological and biological factors.**
+
+Improvements in genomics technologies has improved our understanding of the ecological factors that drive the growth and persistence of pathogenic Vibrio spp (Jesser and Noble 2018; Diner 2019). By examining species-level changes in the *Vibrio* community, we can better understand how these blooms shape public health risks.
+
+# METHODS 
+
+**Sampling Strategy**: Water samples were collected in triplicate from three locations in both the IRL and the SLE. Samples were collected weekly between June 2019 and July 2019 (n = 144).
+
+In the Northern Indian River Lagoon (IRL), samples were collected from three locations: Scottsmoor Landing (IRL 1), Titusville Pier (IRL 2), and the Beacon 42 Boat Ramp (IRL 3). Samples were collected on the following dates: 6/10, 6/17, 6/24, 7/1, 7/8, 7/15, 7/22, 7/29. The IRL is not heavily influenced by tidal mixing.
+
+In the St. Lucie Estuary (SLE), samples were collected from three locations: Snug Harbor Yacht Club (SLE 1), Stuart Boardwalk (SLE 2), and Leighton Park (SLE 3). Samples were collected on the following dates: 6/5, 6/12, 6/19, 6/26, 7/3, 7/17, 7/24, 7/31. The SLE is tidally influenced. Samples were collected during the outgoing tide.
+
+
+![Figure 1. Sample Locations in the IRL and SLE](./chapter1/study_sites.png)
+
+
+**Sample Collection:** Water samples were collected in triplicate and pre-filtered through 200 ?m mesh to remove large debris and detritus. Samples were stored in 1 L sterile polypropylene bottles and stored on ice, in the dark. An aliquot of each sample was stored in 250 mL sterile polypropylene bottles and stored at ambient temperature, in the dark, for enumeration of *Vibrio* through culture. All samples were processed within six hours of collection. 
+
+**Environmental Monitoring:** Physical parameters including water temperature and pH were measured in-situ using the YSI sonde. Salinity was measured using a refractometer. Bulk water samples were filtered using GF/F and pre-combusted GF/F filters to quantify chlorophyll-a, phosphate, nitrate, and dissolved oxygen. Continuous water quality monitoring data were accessed from sensors maintained by the St. John's Water Management District and The Indian River Lagoon Observatory. Daily averages for aerosol optical depth (AOD) were obtained from AERONET Version 3. Daily averages of precipitation were obtained from U.S. Climate Data. 
+
+**Enumeration of *Vibrio* bacteria:** Culturable *Vibrio* bacteria was enumerated from pre-filtered bulk water and size-fractionated samples by spread plate on TCBS agar.  Bulk waters were plated in triplicate. To separate water samples by particle size, each sample was filtered through a 2.0 ?m polycarbonate filter (47 mm) using membrane filtration. The filtrate (< 2.0 ?m fraction) was collected and plated in triplicate. Bacterial cells were washed from the membrane in 10 mL of PBS by vortexing on high speed for 5 min. The eluent (> 2.0 ?m fraction) was collected and plated in triplicate. Plates were inverted and incubated at 30?C for 18 h. 
+
+**Collection of Sample DNA:** Water samples were size fractionated in series onto polycarbonate filters (2. 0 ?m) and Sterivex filters (0.22 ?m). Filters were stored at -20?C until extraction. 
+
+**DNA Extraction:** Sample DNA was extracted from stored polycarbonate filters (2.0 ?m) using the Qiagen PowerSoil Pro Kit. DNA will be extracted from stored Sterivex filters (0.22 ?m) using phenol:chloroform:isoamyl extractions. 
+
+**Next Generation Sequencing Methods:** Novel sequencing of the *Vibrio* hsp60 gene will provide additional taxonomic resolution of the *Vibrio* community. Libraries of the *Vibrio* hsp60 gene will be prepared using primers described in Jesser and Noble 2019 using unique barcodes.  DNA will be analyzed by Illumina chemistry using the MiSeq PE300. Sequence data will be analyzed in R using the DADA2 pipeline. 
+
+
+# PRELIMINARY RESULTS 
+
+## Indian River Lagoon
+
+*Vibrio* abundance and environmental conditions between June 5, 2019 and July 31, 2019 in the IRL are presented in Figures 2 and 3.
+
+In the IRL, *Vibrio* abundance bloomed between June 17 and June 24, 2019 at the IRL 3 sampling location. During this bloom, the maximum *Vibrio* abundance was recorded from the IRL, at 1.9 x 10^4^ CFU/1mL. No bloom was observed at the IRL 1 or IRL 2 locations during this time. In fact, the lowest *Vibrio* abundance in the IRL was recorded at the IRL 2 location during this period, at 2.17 x 10^2^ CFU/1mL on June 24, 2019. *Vibrio* abundance increased again, at all three locations, on July 22, 2019. 
+
+In the IRL, the average AOD during this study period was 0.083. The AOD ranged between 0.025 and 0.274 over this period, peaking on June 25, 2019 (0.274) and again on July 14, 2019 (0.230). Results from the Shapiro-Wilk test for normality suggest that the AOD in the IRL does not follow a normal distribution (p = < 0.01). When log-transformed, the AOD can be assumed to follow a normal distribution (p = 0.552).
+
+Salinity in the IRL ranged between 18 ppt and 30 ppt during this study period. The salinity was distinctly different between the three IRL sampling locations (One-way ANOVA, p = < 0.01). At IRL 1, the average salinity was 23 ppt and ranged from 18 ppt to 28 ppt. At IRL 2, the average salinity was 25 ppt and ranged from 24 ppt to 26 ppt. At IRL 3, the average salinity was 29 ppt and ranged from 27 ppt to 30 ppt.
+
+The average pH in the IRL was 8.03 and ranged between 7.61 and 8.31 during this study period. The pH is not distinctly different between the three locations (One-way ANOVA, p = 0.446). The pH appeared to peak at all three sampling locations on July 15, 2019. The pH declined at location IRL 1 to 7.61 on July 29, 2019. This was the lowest pH observed in the IRL over the course of this study and corresponded with a drop in salinity at the same location.
+
+The daily average precipitation in Titusville, FL ranged from 0.00 in. to 1.49 in. The average air temperature was 27.3 C and ranged from 26.4 C to 28.0 C. Precipitation and air temperature in Titusville, FL was used to approximate the precipitation in the IRL during this study period.
+
+The average water temperature in the IRL was 30.10 and ranged from 26.3?C to 35.3?C. The water temperature does not differ significantly between sampling locations (One-way ANOVA, p = 0.400). The water temperature peaked at all three locations on July 15, 2019.
+
+Water quality parameters appeared to follow a distinct pattern of fluctuating conditions, as though they were tidally influenced; however, this estuary is not influenced by tidal mixing. 
+
+It appears that time of sample collection fluctuates in the same or similar pattern. Samples were collected from each location in the following order: IRL 1, IRL 2, IRL 3. The average sampling time at the first location (IRL 1) was approximately 1100, but ranged from 0551 and 1455. Notably, sample collection finished latest on July 15, 2019. Sample times are included in the supplementary materials.
+
+The peak in *Vibrio* abundance appears to correspond with increases in AOD at 1020nm. In the IRL, the AOD peaked on June 25, 2019 and again on July 14, 2019. Samples were collected from the IRL on June 24 and July 15, 2019.
+
+![](./chapter1/envr_vars/irl_vibrio.png)
+
+#### **Figure 3.** IRL Environmental Variables {.tabset .tabset-fade .tabset-pills}
+
+
+##### Aerosol Optical Density
+
+![](./chapter1/envr_vars/irl_aod.png)
+
+
+##### Chlorophyll a 
+
+![](./chapter1/envr_vars/irl_chla.png)
+
+##### Dissolved Oxygen 
+
+![](./chapter1/envr_vars/irl_do.png)
+
+##### Nitrate
+
+![](./chapter1/envr_vars/irl_nitrate.png)
+
+##### Phosphate
+
+
+![](./chapter1/envr_vars/irl_phosphate.png)
+
+##### pH
+
+![](./chapter1/envr_vars/irl_pH.png)
+
+##### Salinity
+
+![](./chapter1/envr_vars/irl_salinity.png)
+
+##### Temperature
+
+![](./chapter1/envr_vars/irl_temp.png)
+
+##### Turbidity
+
+![](./chapter1/envr_vars/irl_turbidity.png)
+
+
+
+
+
+
+
+## St. Lucie Estuary 
+
+*Vibrio* abundance and environmental conditions between June 5, 2019 and July 31, 2019 in the SLE are presented in Figures 4 and 5.
+
+In the SLE, *Vibrio* abundance bloomed between June 19 and July 3, 2019 at SLE 1, SLE 2, and SLE 3. Vibrio abundance peaked at all three locations on June 26, 2019 (3.9 x 10^3^ CFU/1mL, 2.3 x 10^3^ CFU/1mL, 5.8 x 10^3^ CFU/1mL, respectively). Results from the Shapiro-Wilk test for normality suggest that the Vibrio counts from the SLE do not follow a normal distribution (p < 0.01), but do follow a normal distribution when log-transformed (p = 0.406). The enumeration of total Vibrio does not differ between sampling locations in the SLE (One-way ANOVA, p = 0.281).
+
+The average AOD in the SLE during this study period was 8.8294 x 10^-2. The AOD ranged between 2.7799 x 10^-2^ and 2.97130 x 10^-1^ over this period. The AOD peaked on June 25, 2019 (2.97130 x 10^-1^) and again on July 13, 2019 (2.4067 x 10^-1^). Results from the Shapiro-Wilk test for normality suggest that the AOD in the SLE does not follow a normal distribution (p < 0.01). When log-transformed, the AOD can be assumed to follow a normal distribution (p = 0.223).
+
+Salinity in the SLE follows a normal distribution (Shapiro-Wilk, p = 0.119), but average salinity is significantly different between the three sampling locations (One-way ANOVA, p < 0.01). At SLE 1, the average salinity was 26 ppt and ranged from 20 ppt to 34 ppt. At SLE 2, the average salinity was 18 ppt and ranged from 15 ppt to 23 ppt. At SLE 3, the average salinity was 13 ppt and ranged from 10 ppt to 16 ppt.
+The average pH in the SLE was 7.86 and ranged between 7.07 and 8.37 during this study period. The pH is normally distributed in the SLE (Shapiro-Wilk, p = 0.091), and the pH is not distinctly different between the three locations (One-way ANOVA, p = 0.115).
+
+The average precipitation in Stuart, FL ranged from 0.00 in. to 0.25 in on the days of sample collection. The average air temperature was 29.5 C, and ranged from 28.3 and 30.6 C. Precipitation and air temperature in Stuart, FL was used to approximate the precipitation in the SLE during this study period.
+
+The average water temperature in the SLE was 30.02 and ranged from 27.76 C to 33.43 C. The water temperature is normally distributed (Shapiro-Wilk, 0.354) and does not differ significantly between sampling locations (One-way ANOVA, 0.0819).
+
+The peak in *Vibrio* abundance appears again to correspond with increases in AOD at 1020nm. In the SLE, the AOD peaked on June 25, 2019 and again on July 13, 2019. As previously noted, the peak of Vibrio abundance in the SLE was recorded on June 26, 2019, 24h following the peak AOD.
+
+![](./chapter1/envr_vars/sle_vibrio.png)
+
+
+#### SLE Environmental Variables {.tabset .tabset-fade .tabset-pills}
+
+##### Aerosol Optical Density
+
+![](./chapter1/envr_vars/sle_aod.png)
+
+##### Chlorophyll a 
+
+![](./chapter1/envr_vars/sle_chla.png)
+
+##### Dissolved Oxygen 
+
+![](./chapter1/envr_vars/sle_do.png)
+
+##### Nitrate
+
+![](./chapter1/envr_vars/sle_nitrate.png)
+
+##### Phosphate
+
+![](./chapter1/envr_vars/sle_phosphate.png)
+
+##### pH
+
+![](./chapter1/envr_vars/sle_pH.png)
+
+##### Salinity
+
+![](./chapter1/envr_vars/sle_salinity.png)
+
+##### Temperature
+
+![](./chapter1/envr_vars/sle_temp.png)
+
+##### Turbidity
+
+![](./chapter1/envr_vars/sle_turbidity.png)
+
+
+## Bivariate Analysis
+
+![Figure 6. Correlations Between Biotic and Abiotic Factors in the IRL](./chapter1/envr_vars/irl_corrplot.png)
+
+
+![Figure 7. Correlations Between Biotic and Abiotic Factors in the SLE](./chapter1/envr_vars/sle_corrplot.png)
+
+#### Linear Regression Between Biotic and Abiotic Factors {.tabset .tabset-fade .tabset-pills}
+
+##### Vibrio Vs. AOD
+
+![](./chapter1/envr_vars/vib_aod.png)
+
+##### Vibrio Vs. Chl-a
+
+![](./chapter1/envr_vars/vib_chla.png)
+
+##### Chl-a Vs. AOD
+
+![](./chapter1/envr_vars/chla_aod.png)
+
+
+# REFERENCES
+
+Borchardt, Trace et al. 2019. “Saharan Dust Deposition Initiates Successional Patterns among Marine Microbes in the Western Atlantic.” Limnology and Oceanography. http://doi.wiley.com/10.1002/lno.11291 (December 11, 2019).
+
+Caporaso, J Gregory et al. 2011. “Global Patterns of 16S RRNA Diversity at a Depth of Millions of Sequences per Sample.” Proceedings of the National Academy of Sciences of the United States of America 108 Suppl 1(Supplement 1): 4516–22. http://www.ncbi.nlm.nih.gov/pubmed/20534432 (February 15, 2019).
+
+Rachel E. Diner, Ariel J. Rabines, Hong Zheng et al. Microbiomes of pathogenic Vibrio species reveal environmental and planktonic associations, 13 December 2019, PREPRINT (Version 1) available at Research Square [+https://doi.org/10.21203/rs.2.18876/v1+]
+
+Greenfield, D. I. et al. 2017. “Temporal and Environmental Factors Driving Vibrio Vulnificus and V. Parahaemolyticus Populations and Their Associations with Harmful Algal Blooms in South Carolina Detention Ponds and Receiving Tidal Creeks.” GeoHealth: 306–17. http://doi.wiley.com/10.1002/2017GH000094.
+
+Hsieh, Jennifer L., J. Stephen Fries, and Rachel T. Noble. 2007. “Vibrio and Phytoplankton Dynamics During the Summer of 2004 in a Eutrophying Estuary.” 17(5): 102–9.
+
+Jesser, Kelsey J., and Rachel T. Noble. 2018. “Vibrio Ecology in the Neuse River Estuary, North Carolina, Characterized by Next-Generation Amplicon Sequencing of the Gene Encoding Heat Shock Protein 60 (Hsp60).” Applied and Enviornmental Microbiology 84(13): 1–21.
+
+Jonathan J. Cole. 1982. “Interactions between Bacteria and Algae in Aquatic Ecosystems.” Annual Review of Ecological Systems 13: 291–314.
+http://content.ebscohost.com/ContentServer.asp?T=P&P=AN&K=11916374&S=R&D=syh&EbscoContent=dGJyMMvl7ESeqLU4v%2BvlOLCmr1Cep7RSs6a4TLOWxWXS&ContentCustomer=dGJyMPPd30m549%2BB7LHjfPEA (August 27, 2018).
+
+Main, Christopher R., Lauren R. Salvitti, Edward B. Whereat, and Kathryn J. Coyne. 2015. “Community-Level and Species-Specific Associations between Phytoplankton and Particle-Associated Vibrio Species in Delaware’s Inland Bays.” Applied and Environmental Microbiology 81(17): 5703–13. http://www.ncbi.nlm.nih.gov/pubmed/26070682 (January 14, 2019).
+
+Turner, Jeffrey W, Brooks Good, Dana Cole, and Erin K Lipp. 2009. “Plankton Composition and Environmental Factors Contribute to Vibrio Seasonality.” The ISME Journal 3(9): 1082–92. http://www.nature.com/articles/ismej200950 (September 26, 2018).
+
+Westrich, Jason R., Dale W. Griffin, Douglas L. Westphal, and Erin K. Lipp. 2018. “Vibrio Population Dynamics in Mid-Atlantic Surface Waters during Saharan Dust Events.” Frontiers in Marine Science 5. http://journal.frontiersin.org/article/10.3389/fmars.2018.00012/full (December 11, 2019).
+

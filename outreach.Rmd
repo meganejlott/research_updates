@@ -1,0 +1,119 @@
+---
+title: Outreach and Service
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+# UGA Blue Key National Honor Society 
+
+**Roles**
+Member (2020 - Present)
+
+**Description**
+The [Blue Key Honor Society](https://bluekey.uga.edu/) is a national organization that recognizes students for their achievements in scholarship, leadership, and service. 
+
+
+# Duke TIP
+
+**Roles**
+
+Instructor (2018 - Present)
+
+**Description**
+
+[Duke TIP](https://coe.uga.edu/events/duke-tip?redirectedfrom=/recurring-events/duke-tip) is a non-profit organization that supports academically and creatively gifted students. As an instructor, I offer year-round educational programs for students to explore the biological sciences, genetics, and microbiology. Through this program, I serve as a mentor, encouraging students to grow in their academic abilities while providing them with challenging and advanced interactive learning opportunities.
+
+Total Hours: 100 
+
+**Courses Taught**
+
+Academic Adventures (Grades 5th & 6th): Cellular Gene-iuos
+
+Scholar Weekend (Grades 8th - 11th): Introduction to Microbiology
+
+
+
+
+
+
+# Scientific Research and Education Network (SciREN)
+
+**Roles**
+
+Chair, Leadership Team (2019 - Present)
+
+Leadership Team (2018 - 2019)
+
+**Description**
+
+[SciREN](https://sciren.org/) is non-profit organization that aims to foster the science literacy of today's youth. Through this network, researchers and educators gather to develop ready-made   K-12 STEM lesson plans based on cutting-edge research conducted in the state of Georgia. Researchers organize classroom visits and collaborate on STEM enrichment programs tailored to Georgia Educational Standards.
+
+**2020 Outcomes**
+
+Raised $2,350 in sponsorship support. 
+Organized Lesson Planning Workshop for 29 Researchers and 5 Educators. 
+Organized Networking Event for 18 Researchers, 12 Outreach Groups, 17 Educators, and 22 Community Members. 
+
+Full SciREN Summary can be found [here](./sciren_report.pdf).
+
+# Environmental Health Sciences Graduate Student Association (EHS GSA)
+
+**Roles**
+
+Co-President (2019 - Present)
+
+**Description** 
+[The EHS GSA](https://uga.campuslabs.com/engage/organization/ehsgsa) aims to connect graduate students through professional development, social, and outreach events. The organization provides enrichment opportunities to engage students in science communication and science advocacy. 
+
+
+# UGA Communication of Scholarship and Research 
+
+**Roles & Responsibilities**
+
+K-12 Research Partner (2020 - 2021)
+
+Design, implement, and evaluate a research-based learning experience for Georgia Middle School students to investigate local water quality in their community.
+
+
+# Community Mini-Grant for Inclusion, Research, and Engagement
+
+**Roleds**
+
+Research Partner 
+
+**Descripton**
+
+The UGA College of Public Health Mini-Grant supports community outreach projects focused on addressing health disparities in Athens-Clarke County. With this award, our team of graduate students conducted a research program to examine lead contamination in elementary schools throughout Athens-Clarke County. 
+
+
+# Upper Oconee Watershed Network (UOWN) 
+
+**Roles**
+
+Volunteer Research Partner (2018 - Present)
+
+**Description**
+
+[UOWN](http://uown.org/UOWN-Wordpress/) is a citizen-driven, volunteer-based organization that aims to protect water resources through community-based advocacy, monitoring, education, and recreation. The organization hosts quarterly monitoring programs to collect water samples from creeks and rivers throughout Athens-Clarke County. These samples are analyzed for chemical and biological contaminants to determine the health of our watershed. As a volunteer research partner, I assist in these analyses by examining water for _E. coli_ bacteria, an indicator of microbial contamination.
+
+
+# Georgia Public Schools 
+
+**Roles**
+
+Guest Instructor (2019 - Present)
+
+**Description**
+
+As a guest instructor, I organize classroom visits with K-12 STEM educators throughout the state of Georgia. I developed, organized, and presented a water treatment lab for 4th grade students at Gum Springs Elementary School in Jefferson, Georgia. I developed and presented an animal behavior lab for Otwell Middle School students in Cumming, GA. 
+
+# College of Public Health Scout Merit Badge Course
+
+**Roles**
+
+Co-Instructor (October 2019)
+
+**Description**
+
+As a Co-Instructor, I helped to coordinate a day-long program for Scouts to explore the fundamentals of public health during the Northeast Georgia Scout Council's 2019 Fall Advance-A-Rama Event. Our course fulfilled the requirements for the Scout's Public Health Merit Badge, while encouraging students to explore careers in epidemiology, health behavior, biostatistics, and environmental health.

@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CHAPTER 1</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="customstyles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">M. Lott</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Academic &amp; Professional Development
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./academic_progress.html">Academic Progress</a>
+    </li>
+    <li>
+      <a href="./professional_development.html">Professional Development</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./Outreach.html">Outreach &amp; Service</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Dissertation Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./intro.html">Introduction</a>
+    </li>
+    <li>
+      <a href="./chapter_1.html">Chapter 1</a>
+    </li>
+    <li>
+      <a href="./chapter_2.html">Chapter 2</a>
+    </li>
+    <li>
+      <a href="./chapter_3.html">Chapter 3</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./additional_research.html">Additional Research</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://meganejlott.github.io/research_updates/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">CHAPTER 1</h1>
+
+</div>
+
+
+<div id="bloom-or-bust-vibrio-ecology-in-the-indian-river-lagoon-and-st.lucie-estuaries" class="section level2">
+<h2>Bloom or Bust: <em>Vibrio</em> Ecology in the Indian River Lagoon and St. Lucie Estuaries</h2>
+<p>Megan Lott<sup>1</sup>, Michael Wetz<sup>2</sup>, Erin K. Lipp<sup>1</sup></p>
+<p><sup>1</sup>Department of Environmental Health Sciences, University of Georgia; <sup>2</sup> Department of Life Sciences, Texas A&amp;M University at Corpus Christi</p>
+<p>Target Journal: Applied and Environmental Microbiology (Impact Factor 4.08)</p>
+</div>
+<div id="abstract" class="section level1">
+<h1>ABSTRACT</h1>
+<p><em>Vibrio</em> spp. are a group of human pathogenic bacteria that are ubiquitous in marine environments. Building evidence suggests that ephemeral events may stimulate rapid <em>Vibrio</em> growth. Within a short period of time, the abundance of pathogenic <em>Vibrio</em> may quickly exceed an infectious dose for <em>Vibrio</em>-associated illnesses. <em>Vibrio</em> blooms are an important, but underappreciated, factor in understanding exposure and illness risk.</p>
+<p>This study aims to understand the drivers of <em>Vibrio</em> bloom dynamics. Using a time series approach, we examine <em>Vibrio</em> ecology in response to pulses of atmospheric Saharan dust and phytoplankton dynamics in Florida’s Indian River Lagoon system.</p>
+<p>Water samples were collected in triplicate from three locations in the Northern Indian River Lagoon (IRL) and the St. Lucie Estuary (SLE). Samples were collected weekly between June and July 2019 (n = 144) to examine <em>Vibrio</em> and phytoplankton abundance in relation to environmental variables.</p>
+<p>In the IRL, <em>Vibrio</em> bloomed from 5.8 x 10<sup>2</sup> to 1.9 x 10<sup>4</sup> CFU/1mL between June 10 and June 17, returning to 5.1 x 10<sup>2</sup> CFU/1mL on July 1 (IRL Site 1). In the SLE, <em>Vibrio</em> bloomed from 3.9 x 10<sup>2</sup> to 3.9 x 10<sup>4</sup> CFU/1mL between June 5 and June 26, returning to 1.8 x 10<sup>2</sup> CFU/1mL on July 31 (SLE Site 1).</p>
+<p>We examined these dynamics in <em>Vibrio</em> abundance in relation to water temperature, air temperature, pH, salinity, AOD, and precipitation. Based on the Boruta algorithm and Pearson’s Correlation, the normalized AOD on the day of sampling is a confirmed variable of importance and is significantly correlated with <em>Vibrio</em> abundance (R<sup>2</sup> = 0.45, p &lt; 0.01).</p>
+<p><em>Vibrio</em> blooms in the IRL and SLE correspond with pulses of Saharan dust (increases in AOD). The resulting <em>Vibrio</em> blooms have implications for public health risks. Dynamics in <em>Vibrio</em> communities will be further resolved by sequencing of the <em>Vibrio</em> heat shock protein 60 (hsp60).</p>
+</div>
+<div id="research-objectives" class="section level1">
+<h1>RESEARCH OBJECTIVES</h1>
+<p>This study aims to understand the drivers of <em>Vibrio</em> bloom dynamics. Using a time series approach, we examined <em>Vibrio</em> ecology between June and July 2019 in Florida’s Indian River Lagoon (IRL) and St. Lucie Estuaries.</p>
+<ol style="list-style-type: decimal">
+<li><strong>Objective Identify environmental drivers of <em>Vibrio</em> bloom dynamics in estuarine environments.</strong></li>
+</ol>
+<p>The abundance of Vibrio spp. has been shown to increase rapidly in response to changes in biotic and abiotic factors of the aquatic environment. Numerous studies have reported correlations between Vibrio abundance and phytoplankton dynamics (Hsieh, Fries, and Noble 2007; Jesser and Noble 2018; Main et al. 2015; Turner et al. 2009). Evidence suggests that algal blooms may stimulate Vibrio growth and improve survival (Greenfield et al. 2017).In eutrophic marine waters, pulses of atmospheric-transported Saharan dust have been shown to promote Vibrio bloom formation (Borchardt et al. 2019; Westrich et al. 2018). These pulses of dust deposit micronutrients and particulate matter that are likely to drive Vibrio blooms. In this study, we examine how ephemeral events may stimulate rapid Vibrio growth.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p><strong>Examine the changes in <em>Vibrio</em> community composition during the succession of a <em>Vibrio</em> bloom event.</strong> Using novel genomic sequencing of the Vibrio heat shock protein 60 (hsp60), we aim to identify species-level variations in Vibrio communities during a bloom event (Jesser and Noble 2018). We expect that opportunistic species of Vibrio will be predominant during a bloom event. We also expect that the particle-attached Vibrio community will be specialized and significantly different from that that of the free-living, planktonic Vibrio community (Jonathan J. Cole 1982; Main et al. 2015).</p></li>
+<li><p><strong>Evaluate changes in abundance of <em>Vibrio</em> spp. related to human health, based on measured ecological and biological factors.</strong></p></li>
+</ol>
+<p>Improvements in genomics technologies has improved our understanding of the ecological factors that drive the growth and persistence of pathogenic Vibrio spp (Jesser and Noble 2018; Diner 2019). By examining species-level changes in the <em>Vibrio</em> community, we can better understand how these blooms shape public health risks.</p>
+</div>
+<div id="methods" class="section level1">
+<h1>METHODS</h1>
+<p><strong>Sampling Strategy</strong>: Water samples were collected in triplicate from three locations in both the IRL and the SLE. Samples were collected weekly between June 2019 and July 2019 (n = 144).</p>
+<p>In the Northern Indian River Lagoon (IRL), samples were collected from three locations: Scottsmoor Landing (IRL 1), Titusville Pier (IRL 2), and the Beacon 42 Boat Ramp (IRL 3). Samples were collected on the following dates: 6/10, 6/17, 6/24, 7/1, 7/8, 7/15, 7/22, 7/29. The IRL is not heavily influenced by tidal mixing.</p>
+<p>In the St. Lucie Estuary (SLE), samples were collected from three locations: Snug Harbor Yacht Club (SLE 1), Stuart Boardwalk (SLE 2), and Leighton Park (SLE 3). Samples were collected on the following dates: 6/5, 6/12, 6/19, 6/26, 7/3, 7/17, 7/24, 7/31. The SLE is tidally influenced. Samples were collected during the outgoing tide.</p>
+<div class="figure">
+<img src="chapter1/study_sites.png" alt="Figure 1. Sample Locations in the IRL and SLE" />
+<p class="caption">Figure 1. Sample Locations in the IRL and SLE</p>
+</div>
+<p><strong>Sample Collection:</strong> Water samples were collected in triplicate and pre-filtered through 200 ?m mesh to remove large debris and detritus. Samples were stored in 1 L sterile polypropylene bottles and stored on ice, in the dark. An aliquot of each sample was stored in 250 mL sterile polypropylene bottles and stored at ambient temperature, in the dark, for enumeration of <em>Vibrio</em> through culture. All samples were processed within six hours of collection.</p>
+<p><strong>Environmental Monitoring:</strong> Physical parameters including water temperature and pH were measured in-situ using the YSI sonde. Salinity was measured using a refractometer. Bulk water samples were filtered using GF/F and pre-combusted GF/F filters to quantify chlorophyll-a, phosphate, nitrate, and dissolved oxygen. Continuous water quality monitoring data were accessed from sensors maintained by the St. John’s Water Management District and The Indian River Lagoon Observatory. Daily averages for aerosol optical depth (AOD) were obtained from AERONET Version 3. Daily averages of precipitation were obtained from U.S. Climate Data.</p>
+<p><strong>Enumeration of <em>Vibrio</em> bacteria:</strong> Culturable <em>Vibrio</em> bacteria was enumerated from pre-filtered bulk water and size-fractionated samples by spread plate on TCBS agar. Bulk waters were plated in triplicate. To separate water samples by particle size, each sample was filtered through a 2.0 ?m polycarbonate filter (47 mm) using membrane filtration. The filtrate (&lt; 2.0 ?m fraction) was collected and plated in triplicate. Bacterial cells were washed from the membrane in 10 mL of PBS by vortexing on high speed for 5 min. The eluent (&gt; 2.0 ?m fraction) was collected and plated in triplicate. Plates were inverted and incubated at 30?C for 18 h.</p>
+<p><strong>Collection of Sample DNA:</strong> Water samples were size fractionated in series onto polycarbonate filters (2. 0 ?m) and Sterivex filters (0.22 ?m). Filters were stored at -20?C until extraction.</p>
+<p><strong>DNA Extraction:</strong> Sample DNA was extracted from stored polycarbonate filters (2.0 ?m) using the Qiagen PowerSoil Pro Kit. DNA will be extracted from stored Sterivex filters (0.22 ?m) using phenol:chloroform:isoamyl extractions.</p>
+<p><strong>Next Generation Sequencing Methods:</strong> Novel sequencing of the <em>Vibrio</em> hsp60 gene will provide additional taxonomic resolution of the <em>Vibrio</em> community. Libraries of the <em>Vibrio</em> hsp60 gene will be prepared using primers described in Jesser and Noble 2019 using unique barcodes. DNA will be analyzed by Illumina chemistry using the MiSeq PE300. Sequence data will be analyzed in R using the DADA2 pipeline.</p>
+</div>
+<div id="preliminary-results" class="section level1">
+<h1>PRELIMINARY RESULTS</h1>
+<div id="indian-river-lagoon" class="section level2">
+<h2>Indian River Lagoon</h2>
+<p><em>Vibrio</em> abundance and environmental conditions between June 5, 2019 and July 31, 2019 in the IRL are presented in Figures 2 and 3.</p>
+<p>In the IRL, <em>Vibrio</em> abundance bloomed between June 17 and June 24, 2019 at the IRL 3 sampling location. During this bloom, the maximum <em>Vibrio</em> abundance was recorded from the IRL, at 1.9 x 10<sup>4</sup> CFU/1mL. No bloom was observed at the IRL 1 or IRL 2 locations during this time. In fact, the lowest <em>Vibrio</em> abundance in the IRL was recorded at the IRL 2 location during this period, at 2.17 x 10<sup>2</sup> CFU/1mL on June 24, 2019. <em>Vibrio</em> abundance increased again, at all three locations, on July 22, 2019.</p>
+<p>In the IRL, the average AOD during this study period was 0.083. The AOD ranged between 0.025 and 0.274 over this period, peaking on June 25, 2019 (0.274) and again on July 14, 2019 (0.230). Results from the Shapiro-Wilk test for normality suggest that the AOD in the IRL does not follow a normal distribution (p = &lt; 0.01). When log-transformed, the AOD can be assumed to follow a normal distribution (p = 0.552).</p>
+<p>Salinity in the IRL ranged between 18 ppt and 30 ppt during this study period. The salinity was distinctly different between the three IRL sampling locations (One-way ANOVA, p = &lt; 0.01). At IRL 1, the average salinity was 23 ppt and ranged from 18 ppt to 28 ppt. At IRL 2, the average salinity was 25 ppt and ranged from 24 ppt to 26 ppt. At IRL 3, the average salinity was 29 ppt and ranged from 27 ppt to 30 ppt.</p>
+<p>The average pH in the IRL was 8.03 and ranged between 7.61 and 8.31 during this study period. The pH is not distinctly different between the three locations (One-way ANOVA, p = 0.446). The pH appeared to peak at all three sampling locations on July 15, 2019. The pH declined at location IRL 1 to 7.61 on July 29, 2019. This was the lowest pH observed in the IRL over the course of this study and corresponded with a drop in salinity at the same location.</p>
+<p>The daily average precipitation in Titusville, FL ranged from 0.00 in. to 1.49 in. The average air temperature was 27.3 C and ranged from 26.4 C to 28.0 C. Precipitation and air temperature in Titusville, FL was used to approximate the precipitation in the IRL during this study period.</p>
+<p>The average water temperature in the IRL was 30.10 and ranged from 26.3?C to 35.3?C. The water temperature does not differ significantly between sampling locations (One-way ANOVA, p = 0.400). The water temperature peaked at all three locations on July 15, 2019.</p>
+<p>Water quality parameters appeared to follow a distinct pattern of fluctuating conditions, as though they were tidally influenced; however, this estuary is not influenced by tidal mixing.</p>
+<p>It appears that time of sample collection fluctuates in the same or similar pattern. Samples were collected from each location in the following order: IRL 1, IRL 2, IRL 3. The average sampling time at the first location (IRL 1) was approximately 1100, but ranged from 0551 and 1455. Notably, sample collection finished latest on July 15, 2019. Sample times are included in the supplementary materials.</p>
+<p>The peak in <em>Vibrio</em> abundance appears to correspond with increases in AOD at 1020nm. In the IRL, the AOD peaked on June 25, 2019 and again on July 14, 2019. Samples were collected from the IRL on June 24 and July 15, 2019.</p>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_vibrio.png" />
+
+</div>
+<div id="figure-3.-irl-environmental-variables" class="section level4 tabset tabset-fade tabset-pills">
+<h4><strong>Figure 3.</strong> IRL Environmental Variables</h4>
+<div id="aerosol-optical-density" class="section level5">
+<h5>Aerosol Optical Density</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_aod.png" />
+
+</div>
+</div>
+<div id="chlorophyll-a" class="section level5">
+<h5>Chlorophyll a</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_chla.png" />
+
+</div>
+</div>
+<div id="dissolved-oxygen" class="section level5">
+<h5>Dissolved Oxygen</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_do.png" />
+
+</div>
+</div>
+<div id="nitrate" class="section level5">
+<h5>Nitrate</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_nitrate.png" />
+
+</div>
+</div>
+<div id="phosphate" class="section level5">
+<h5>Phosphate</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_phosphate.png" />
+
+</div>
+</div>
+<div id="ph" class="section level5">
+<h5>pH</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_ph.png" />
+
+</div>
+</div>
+<div id="salinity" class="section level5">
+<h5>Salinity</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_salinity.png" />
+
+</div>
+</div>
+<div id="temperature" class="section level5">
+<h5>Temperature</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_temp.png" />
+
+</div>
+</div>
+<div id="turbidity" class="section level5">
+<h5>Turbidity</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/irl_turbidity.png" />
+
+</div>
+</div>
+</div>
+</div>
+<div id="st.lucie-estuary" class="section level2">
+<h2>St. Lucie Estuary</h2>
+<p><em>Vibrio</em> abundance and environmental conditions between June 5, 2019 and July 31, 2019 in the SLE are presented in Figures 4 and 5.</p>
+<p>In the SLE, <em>Vibrio</em> abundance bloomed between June 19 and July 3, 2019 at SLE 1, SLE 2, and SLE 3. Vibrio abundance peaked at all three locations on June 26, 2019 (3.9 x 10<sup>3</sup> CFU/1mL, 2.3 x 10<sup>3</sup> CFU/1mL, 5.8 x 10<sup>3</sup> CFU/1mL, respectively). Results from the Shapiro-Wilk test for normality suggest that the Vibrio counts from the SLE do not follow a normal distribution (p &lt; 0.01), but do follow a normal distribution when log-transformed (p = 0.406). The enumeration of total Vibrio does not differ between sampling locations in the SLE (One-way ANOVA, p = 0.281).</p>
+<p>The average AOD in the SLE during this study period was 8.8294 x 10^-2. The AOD ranged between 2.7799 x 10<sup>-2</sup> and 2.97130 x 10<sup>-1</sup> over this period. The AOD peaked on June 25, 2019 (2.97130 x 10<sup>-1</sup>) and again on July 13, 2019 (2.4067 x 10<sup>-1</sup>). Results from the Shapiro-Wilk test for normality suggest that the AOD in the SLE does not follow a normal distribution (p &lt; 0.01). When log-transformed, the AOD can be assumed to follow a normal distribution (p = 0.223).</p>
+<p>Salinity in the SLE follows a normal distribution (Shapiro-Wilk, p = 0.119), but average salinity is significantly different between the three sampling locations (One-way ANOVA, p &lt; 0.01). At SLE 1, the average salinity was 26 ppt and ranged from 20 ppt to 34 ppt. At SLE 2, the average salinity was 18 ppt and ranged from 15 ppt to 23 ppt. At SLE 3, the average salinity was 13 ppt and ranged from 10 ppt to 16 ppt. The average pH in the SLE was 7.86 and ranged between 7.07 and 8.37 during this study period. The pH is normally distributed in the SLE (Shapiro-Wilk, p = 0.091), and the pH is not distinctly different between the three locations (One-way ANOVA, p = 0.115).</p>
+<p>The average precipitation in Stuart, FL ranged from 0.00 in. to 0.25 in on the days of sample collection. The average air temperature was 29.5 C, and ranged from 28.3 and 30.6 C. Precipitation and air temperature in Stuart, FL was used to approximate the precipitation in the SLE during this study period.</p>
+<p>The average water temperature in the SLE was 30.02 and ranged from 27.76 C to 33.43 C. The water temperature is normally distributed (Shapiro-Wilk, 0.354) and does not differ significantly between sampling locations (One-way ANOVA, 0.0819).</p>
+<p>The peak in <em>Vibrio</em> abundance appears again to correspond with increases in AOD at 1020nm. In the SLE, the AOD peaked on June 25, 2019 and again on July 13, 2019. As previously noted, the peak of Vibrio abundance in the SLE was recorded on June 26, 2019, 24h following the peak AOD.</p>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_vibrio.png" />
+
+</div>
+<div id="sle-environmental-variables" class="section level4 tabset tabset-fade tabset-pills">
+<h4>SLE Environmental Variables</h4>
+<div id="aerosol-optical-density-1" class="section level5">
+<h5>Aerosol Optical Density</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_aod.png" />
+
+</div>
+</div>
+<div id="chlorophyll-a-1" class="section level5">
+<h5>Chlorophyll a</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_chla.png" />
+
+</div>
+</div>
+<div id="dissolved-oxygen-1" class="section level5">
+<h5>Dissolved Oxygen</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_do.png" />
+
+</div>
+</div>
+<div id="nitrate-1" class="section level5">
+<h5>Nitrate</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_nitrate.png" />
+
+</div>
+</div>
+<div id="phosphate-1" class="section level5">
+<h5>Phosphate</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_phosphate.png" />
+
+</div>
+</div>
+<div id="ph-1" class="section level5">
+<h5>pH</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_ph.png" />
+
+</div>
+</div>
+<div id="salinity-1" class="section level5">
+<h5>Salinity</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_salinity.png" />
+
+</div>
+</div>
+<div id="temperature-1" class="section level5">
+<h5>Temperature</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_temp.png" />
+
+</div>
+</div>
+<div id="turbidity-1" class="section level5">
+<h5>Turbidity</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_turbidity.png" />
+
+</div>
+</div>
+</div>
+</div>
+<div id="bivariate-analysis" class="section level2">
+<h2>Bivariate Analysis</h2>
+<div class="figure">
+<img src="./chapter1/envr_vars/irl_corrplot.png" alt="Figure 6. Correlations Between Biotic and Abiotic Factors in the IRL" />
+<p class="caption">Figure 6. Correlations Between Biotic and Abiotic Factors in the IRL</p>
+</div>
+<div class="figure">
+<img src="chapter1/envr_vars/sle_corrplot.png" alt="Figure 7. Correlations Between Biotic and Abiotic Factors in the SLE" />
+<p class="caption">Figure 7. Correlations Between Biotic and Abiotic Factors in the SLE</p>
+</div>
+<div id="linear-regression-between-biotic-and-abiotic-factors" class="section level4 tabset tabset-fade tabset-pills">
+<h4>Linear Regression Between Biotic and Abiotic Factors</h4>
+<div id="vibrio-vs.-aod" class="section level5">
+<h5>Vibrio Vs. AOD</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/vib_aod.png" />
+
+</div>
+</div>
+<div id="vibrio-vs.-chl-a" class="section level5">
+<h5>Vibrio Vs. Chl-a</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/vib_chla.png" />
+
+</div>
+</div>
+<div id="chl-a-vs.-aod" class="section level5">
+<h5>Chl-a Vs. AOD</h5>
+<div class="figure">
+<img src="chapter1/envr_vars/chla_aod.png" />
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="references" class="section level1">
+<h1>REFERENCES</h1>
+<p>Borchardt, Trace et al. 2019. “Saharan Dust Deposition Initiates Successional Patterns among Marine Microbes in the Western Atlantic.” Limnology and Oceanography. <a href="http://doi.wiley.com/10.1002/lno.11291" class="uri">http://doi.wiley.com/10.1002/lno.11291</a> (December 11, 2019).</p>
+<p>Caporaso, J Gregory et al. 2011. “Global Patterns of 16S RRNA Diversity at a Depth of Millions of Sequences per Sample.” Proceedings of the National Academy of Sciences of the United States of America 108 Suppl 1(Supplement 1): 4516–22. <a href="http://www.ncbi.nlm.nih.gov/pubmed/20534432" class="uri">http://www.ncbi.nlm.nih.gov/pubmed/20534432</a> (February 15, 2019).</p>
+<p>Rachel E. Diner, Ariel J. Rabines, Hong Zheng et al. Microbiomes of pathogenic Vibrio species reveal environmental and planktonic associations, 13 December 2019, PREPRINT (Version 1) available at Research Square [+<a href="https://doi.org/10.21203/rs.2.18876/v1+" class="uri">https://doi.org/10.21203/rs.2.18876/v1+</a>]</p>
+<p>Greenfield, D. I. et al. 2017. “Temporal and Environmental Factors Driving Vibrio Vulnificus and V. Parahaemolyticus Populations and Their Associations with Harmful Algal Blooms in South Carolina Detention Ponds and Receiving Tidal Creeks.” GeoHealth: 306–17. <a href="http://doi.wiley.com/10.1002/2017GH000094" class="uri">http://doi.wiley.com/10.1002/2017GH000094</a>.</p>
+<p>Hsieh, Jennifer L., J. Stephen Fries, and Rachel T. Noble. 2007. “Vibrio and Phytoplankton Dynamics During the Summer of 2004 in a Eutrophying Estuary.” 17(5): 102–9.</p>
+<p>Jesser, Kelsey J., and Rachel T. Noble. 2018. “Vibrio Ecology in the Neuse River Estuary, North Carolina, Characterized by Next-Generation Amplicon Sequencing of the Gene Encoding Heat Shock Protein 60 (Hsp60).” Applied and Enviornmental Microbiology 84(13): 1–21.</p>
+<p>Jonathan J. Cole. 1982. “Interactions between Bacteria and Algae in Aquatic Ecosystems.” Annual Review of Ecological Systems 13: 291–314. <a href="http://content.ebscohost.com/ContentServer.asp?T=P&amp;P=AN&amp;K=11916374&amp;S=R&amp;D=syh&amp;EbscoContent=dGJyMMvl7ESeqLU4v%2BvlOLCmr1Cep7RSs6a4TLOWxWXS&amp;ContentCustomer=dGJyMPPd30m549%2BB7LHjfPEA">http://content.ebscohost.com/ContentServer.asp?T=P&amp;P=AN&amp;K=11916374&amp;S=R&amp;D=syh&amp;EbscoContent=dGJyMMvl7ESeqLU4v%2BvlOLCmr1Cep7RSs6a4TLOWxWXS&amp;ContentCustomer=dGJyMPPd30m549%2BB7LHjfPEA</a> (August 27, 2018).</p>
+<p>Main, Christopher R., Lauren R. Salvitti, Edward B. Whereat, and Kathryn J. Coyne. 2015. “Community-Level and Species-Specific Associations between Phytoplankton and Particle-Associated Vibrio Species in Delaware’s Inland Bays.” Applied and Environmental Microbiology 81(17): 5703–13. <a href="http://www.ncbi.nlm.nih.gov/pubmed/26070682" class="uri">http://www.ncbi.nlm.nih.gov/pubmed/26070682</a> (January 14, 2019).</p>
+<p>Turner, Jeffrey W, Brooks Good, Dana Cole, and Erin K Lipp. 2009. “Plankton Composition and Environmental Factors Contribute to Vibrio Seasonality.” The ISME Journal 3(9): 1082–92. <a href="http://www.nature.com/articles/ismej200950" class="uri">http://www.nature.com/articles/ismej200950</a> (September 26, 2018).</p>
+<p>Westrich, Jason R., Dale W. Griffin, Douglas L. Westphal, and Erin K. Lipp. 2018. “Vibrio Population Dynamics in Mid-Atlantic Surface Waters during Saharan Dust Events.” Frontiers in Marine Science 5. <a href="http://journal.frontiersin.org/article/10.3389/fmars.2018.00012/full" class="uri">http://journal.frontiersin.org/article/10.3389/fmars.2018.00012/full</a> (December 11, 2019).</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

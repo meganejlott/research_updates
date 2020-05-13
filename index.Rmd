@@ -1,12 +1,14 @@
 ---
-title: "Simple Analysis Exercise Website"
+title: "Committee Meeting May 2020"
 output: 
   html_document:
     toc: FALSE
 ---
 
-This is a demo website to illustrate how one can build simple websites using RMarkdown and Github.
+Welcome to our Committee Meeting Website! This website is intended to help guide our remote committee meeting as we discuss research and schorship. 
 
-This website contains the solution to the _Simple Analysis Exercise_.
+The goals of our committee meeting are: 
 
-Click on the menu links above to see the analysis results and to learn more about me.
+1. Discuss updates on Research, Scholarship, and Service. 
+2. Discuss Prospectus for Approval. 
+3. Discuss the Comprehensive Exam. 

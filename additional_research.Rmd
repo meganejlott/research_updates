@@ -1,0 +1,33 @@
+---
+title: "Additional Research Experiences"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+# PurLyte, LLC
+
+**Research Summary**
+
+As an emerging start-up company, [Purlyte LLC](https://purlyte.com/) aims to produce an innovate tablet for dual point-of-use water disinfection and oral rehydration therapy. 
+
+While oral rehydration solutions (ORS) are recognized as a lifesaving therapy for diarrheal illnesses, ORS prepared in low-resource settings are frequently contaminated with enteric pathogens. To address these issues of contamination, PurLyte LLC has developed a layered tablet, designed with both disinfectants and a time-delayed oral rehydration solution.
+
+The company aims to improve the PurLyte tablet in order to optimize the efficacy of disinfection, improve the taste of the ORS, and ensure ease-of-use for end point users. The company is seeking a research assistant to (1) determine the effectiveness of various physical and chemical disinfection on indicator bacteria and viruses and (2) evaluate the PurLyte tablet for point-of-use disinfection of waters in low-resource and disaster settings.
+
+
+# Sewanee Constructed Wetlands 
+
+**Research Summary**
+
+This research aims to examine the microbial degredation of emerging pharmaceutical contaminants in wastewaters, using a model constructed wetlands. 
+
+[The Sewanee Constructed Wetlands](http://sewaneewetlands.org/) were three times during 2019: March 7, May 16, August 22, and October 24. Water samples were collected in triplicate from each of the five sampling locations. 
+
+Within four hours of collection, samples were  filtered through 0.22 ?m pore size Sterivex filters (Millipore, MA, USA). Filters were stored at -20?C. DNA was extracted from the Sterivex filters using a phenol:chloroform:isoamyl alcohol extraction protocol routinely use in our lab. Extracts were in AE buffer stored at -20?C.
+
+# Zono Technologies
+
+**Research Summary** 
+
+We examined the efficacy of ozone treatment for the disinfection of the bacteriophage MS2 from common personal protective equipment. We inoculated MS2 on four materials from commonly used N95 and dust masks. We found: a) >99% disinfection on dust mask material with standard or enhanced ozone treatments, b) 90% and 96% disinfection from the N95 exhalation valves , c) 99.98% and 99.99% disinfection of N95 elastic bands, and d) the standard treatment resulted in only 77% disinfection, whereas the enhanced treatment resulted in >99.9% disinfection for N95 mask filter material.  Thus, the enhanced treatment significantly improves the disinfection of a non-enveloped virus from the N95 mask filter material, but ozone treatment is much less effective at disinfecting the specialized N95 exhalation valves. 

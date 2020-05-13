@@ -1,0 +1,80 @@
+---
+title: "CHAPTER 3"
+output: html_document
+---
+
+## Assessment of Microbial Fecal Pollution in Watersheds Impacted by Re-Occurring Algal Blooms in Eastern Florida 
+
+Authors: Megan EJ Lott, Andrea Newberry, Amelia Foley, Peter Barile
+
+Target Journal: Marine Pollution Bulletin (Impact Factor 3.78)
+
+# MOTIVATION 
+
+Estuaries are among the most biologically productive ecosystems in the world. Supporting diversity of plants, animals, and habitats, estuaries perform important environmental services that benefit coastal communities. However, estuaries are delicate ecosystems that can be degraded because of increasing human activity. Nutrient loading from agricultural runoff, wastewater discharge, and excess fertilizer leads to eutrophication, habitat loss, and loss of biodiversity.  
+
+The Indian River Lagoon (IRL) is an estuary of national significance. Stretching hundreds of miles across Florida’s east coast, this watershed supports the greatest amount of biodiversity across all North American estuaries. The lagoon is culturally significant for its role in recreation, seafood harvesting, and citrus agriculture. 
+
+The IRL is facing a period of ecological decline as a result of expanding human activity (Barile 2018; Lapointe et al. 2015; Phlips, Badylak, and Grosskopf 2002; USEPA 2007). In recent years, the IRL has suffered from dense and damaging algal blooms, including those caused by the novel brown tide algae Aureoumbra lagunensis in the Northern IRL and by the toxic blue-green algae Microcystis aeruginosa in the southern St. Lucie Estuary (Gobler et al. 2013).
+
+Human wastewater pollution in these coastal waters has been reported as a primary driver of nutrient over-enrichment, fueling harmful algal blooms that results in benthic oxygen deficits, seagrass decline and loss of fisheries (Barile 2018; Lapointe et al. 2015, 2020; Lapointe, Herren, and Paule 2017).  
+
+However, little is known about the contribution of human wastewater pollution to the microbial contamination of the IRL. Previous research has demonstrated that OSDS contribute significantly to the abundance of fecal bacteria and human pathogens in other regions of  coastal Florida (Griffin et al. 2000; Lipp et al. 2001; Paul et al. 2000). Contamination from domestic wastewater may impair water quality and pose a significant public health threat to the traditional recreational uses in many coastal waters (Griffin et al. 2000; Lipp et al. 2001; Paul et al. 2000).  Documentation and monitoring of the environmental threats of wastewater pollution may compel mitigation efforts and leverage coastal wastewater infrastructure upgrades. 
+
+
+# RESEARCH OBJECTIVES
+
+**1.	Assess the impact of OSDS density on the occurrence and abundance of fecal contamination in the Indian River Lagoon estuary system on Florida’s eastern coast.**
+
+**2.	Examine the correlation between indicators of fecal pollution, assessed using culture-based and culture-independent methods.**
+
+
+# METHODS
+
+**Surface Water Sampling.** Surface water samples from the Indian River Lagoon and St. Lucie Estuary were collected between August 8, 2019 and August 11, 2019 (N = 57). Surface water (2 L) was collected in sterile Nalgene bottles or sterile Whirl-Pak bags approximately 15 cm below the surface. Samples were placed on ice, protected from light, and delivered to the receiving laboratory within 6 h of sampling.
+
+**Sampling Final Effluent.** Final effluent was collected from six wastewater treatment facilities permitted to discharge to the Indian River Lagoon under wet weather events. Effluent (2 L) was collected in sterile Nalgene bottles and stored on ice, protected from light, and delivered to the receiving laboratory within 6 h of sampling.
+
+**Enumeration of Enterococci.** Surface water, ground water, and final effluent were examined for Enterococci by membrane filtration onto mEI agar (EPA Method 1600) within 24 h of receipt at the laboratory. Briefly, 100 mL of sample was filtered through 0.45 µm nitrocellulose membranes (47 mm, Millipore) and plated onto mEI agar (60 mm, Difco) in duplicate. Plates were incubated for 24 hours at 41°C ± 0.5°C. All colonies greater than or equal to 0.5 mm in diameter with a blue halo are recorded as colonies of Enterococci.
+
+**Enumeration of Male-Specific and Somatic Coliphage.** Surface water, ground water, and final effluent were examined for male-specific and somatic coliphage by the single agar method (EPA Method 1602) within 24 h of receipt at the laboratory. A 100 mL water sample was assayed by adding 0.5 mL of sterile 4M stock MgCl2 (magnesium chloride), 10 mL of log-phase host bacteria (E. coli Famp for F+ male-specific coliphage and E. coli CN-13 for somatic coliphage), and 100 mL of double-strength molten tryptic soy agar (TSA) with antibiotic (streptomycin/ampicillin or nalidixic acid) to the sample. The sample was thoroughly mixed and the total volume is poured into 10 plates (100 mm). After an overnight incubation at 37°C ± 0.5°C, plaques were counted and summed for all plates from a single sample. The quantity of coliphage in a sample is expressed as plaque forming units (PFU) / 100 mL. A negative reagent water sample was analyzed for each type of coliphage with each sample batch.
+
+**DNA Extraction.** Water samples (100 mL) were filtered in duplicate onto 0.45 µm nitrocellulose membranes (47 mm, Millipore) and stored at -20°C until extraction. DNA was extracted from filters using the Qiagen PowerSoil Pro Kit according to the manufacturer’s protocol (Qiagen, Hilden, Germany). A bead beater (BioSpec Products) was used at 4 min to optimize cellular lysis. Extracted DNA was eluted into 10 mM Tris-HCl (pH 8.5) and stored at -20°C.
+
+
+**Quantitative Polymerase Chain Reaction for HF183.** Quantitative Polymerase Chain Reaction (qPCR) method was used to enumerate the HF183 human-associated Bacteroides target sequence as described in EPA Method 1696. Briefly, the target sequence from extracted DNA was enumerated using the HF183/BacR287 assay using the following primers and probes from Green et al. 2014: F: 5’-ATCATGAGTTCACATGTCCG-3’, R: 5’-CGTAGGAGTTTGGACCGTGT-3’, Probe: FAM-CTGAGAGGAAGGTCCCCCACATTGGA-TAMRA. Reaction mixtures contained 1 µL of the extracted DNA, 0.05 µL Forward Primer (20 µM), 0.05 µL Reverse Primer (20 µM), 0.1 µL  of Probe (10 µM), 5 µL of 2X TaqMan Environmental MasterMix, and molecular-grade water added to a final volume 10 µL. The reaction was carried out using the Applied Biosystems QuantStudio 6 Flex Real-Time PCR machine according to the following conditions: 95°C for 10 min; 40 cycles of 95°C for 15 sec, 60°C for 1 min.  
+
+A standard curve was generated for each HF183 qPCR assay using synthesized double-stranded DNA (IDT gBlocks gene fragments) at the following concentrations: 10, 10^2^, 10^3^, 10^4^, and 10^5^, 10^6^, 10^7^, and 10^8^ copies per reaction mixture. 
+
+In order to identify inhibition, an internal positive control (IPC) was included for 25% of the samples in each qPCR assay. The Applied Biosystems® TaqMan® Exogenous Internal Positive Control Reagents were analyzed with both IPC and sample DNA in order to distinguish true negatives from PCR inhibition. 
+
+# PRELIMINARY RESULTS 
+
+![Figure 1. Enumerations of Enterococccus from the Indian River Lagoon and St. Lucie Estuaries.](./chapter3/entero.png)
+
+![Figure 2. Enumerations of Somatic Coliphage from the Indian River Lagoon and St. Lucie Estuaries.](./chapter3/cn13.png)
+
+![Figure 3. Enumerations of Male-Specific COliphage from the Indian River Lagoon and St. Lucie Estuaries.](./chapter3/famp.png)
+
+
+
+# REFERENCES
+
+Resolved by Spatial Analyses of Macroalgal Biogeochemistry.” Marine Pollution Bulletin 128(January): 557–74. https://doi.org/10.1016/j.marpolbul.2018.01.046.
+
+Gobler, Christopher J et al. 2013. “Expansion of Harmful Brown Tides Caused by the Pelagophyte, Aureoumbra Lagunensis DeYoe et Stockwell, to the US East Coast.” Harmful Algae 27: 29–41. http://dx.doi.org/10.1016/j.hal.2013.04.004 (February 12, 2019).
+
+Griffin, D. W. et al. 2000. “Detection of Viral Pathogens by Reverse Transcriptase PCR and of Microbial Indicators by Standard Methods in the Canals of the Florida Keys.” Applied and Environmental Microbiology 66(2): 876–876. http://aem.asm.org/cgi/doi/10.1128/AEM.66.2.876-876.2000 (October 4, 2018).
+
+Lapointe, Brian E., Laura W. Herren, Rachel A. Brewton, and Pamela K. Alderman. 2020. “Nutrient Over-Enrichment and Light Limitation of Seagrass Communities in the Indian River Lagoon, an Urbanized Subtropical Estuary.” Science of the Total Environment 699: 134068.
+
+Lapointe, Brian E., Laura W. Herren, and Armelle L. Paule. 2017. “Septic Systems Contribute to Nutrient Pollution and Harmful Algal Blooms in the St. Lucie Estuary, Southeast Florida, USA.” Harmful Algae 70: 1–22.
+Lapointe, Brian E, Laura W Herren, David D Debortoli, and Margaret A Vogel. 2015. “Evidence of Sewage-Driven Eutrophication and Harmful Algal Blooms in Florida ’ s Indian River Lagoon.” Harmful Algae 43: 82–102.
+
+Lipp, Erin K. et al. 2001. “The Effects of Seasonal Variability and Weather on Microbial Fecal Pollution and Enteric Pathogens in a Subtropical Estuary.” Estuaries 24(2): 266. http://link.springer.com/10.2307/1352950 (October 4, 2018).
+
+Paul, John H. et al. 2000. “Rapid Movement of Wastewater from On-Site Disposal Systems into Surface Waters in the Lower Florida Keys.” Estuaries 23(5): 662. http://link.springer.com/10.2307/1352892 (September 24, 2018).
+
+Phlips, E J, S Badylak, and T Grosskopf. 2002. “Factors Affecting the Abundance of Phytoplankton in a Restricted Subtropical Lagoon, the Indian River Lagoon, Florida, USA.” Estuarine, Coastal and Shelf Science 55: 385–402. https://static1.squarespace.com/static/526888efe4b0e7f8297496cd/t/531a30fbe4b0ee73eff05c6f/1394225403242/IRL+factors+affecting+phytoplankton+in+IRL.pdf (August 26, 2018).
+
+USEPA. 2007. Indian River Lagoon. http://irl.sjrwmd.com (August 20, 2018).

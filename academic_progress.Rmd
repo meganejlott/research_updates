@@ -1,0 +1,54 @@
+---
+title: Academic Progress
+output: html_document
+---
+```{r load libratries, include=FALSE}
+library(tidyverse)
+library(kableExtra )
+
+```
+
+
+# Core EHS Courses
+
+```{r Core EHS Courses, echo=FALSE}
+ehs_courses = read.csv("./ehs_courses.csv")
+ehs_courses %>% knitr::kable(booktabs = T) %>%
+  kable_styling() %>% row_spec(8, bold = T, color = "white", background = "blue") %>%
+  row_spec(9, bold = T, color = "white", background = "blue")
+```
+
+
+# Elective EHS Courses
+
+
+```{r Elective EHS Courses, echo=FALSE}
+ehs_electives = read.csv("./ehs_electives.csv")
+knitr::kable(ehs_electives) %>%  kable_styling()
+
+
+```
+
+# IDEAS Courses
+
+```{r IDEAS Courses, echo=FALSE}
+ideas_courses = read.csv("./ideas_courses.csv")
+ideas_courses %>% knitr::kable(booktabs = T) %>%
+  kable_styling() %>% row_spec(2, bold = T, color = "white", background = "blue") %>% 
+  row_spec(3, bold = T, color = "white", background = "blue") %>%
+  row_spec(5, bold = T, color = "white", background = "blue") %>%
+  row_spec(7, bold = T, color = "white", background = "blue")
+```
+
+
+Coursework Completed (Hours): 28
+
+Coursework Remaining (Hours): 11
+
+Total Hours:	48
+
+Hours Above 8000:	41
+
+Elective Hours of EHS:	9
+
+Course-Based Hours:	39

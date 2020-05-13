@@ -1,0 +1,26 @@
+---
+title: "INTRODUCTION"
+output: html_document
+---
+
+**Interactions between bacteria and algae in aquatic environments: a public health perspective**
+
+Megan Lott 
+PhD Student, University of Georgia
+Department of Environmental Health Sciences
+
+"[The] phycosphere is one of the most ignored and distinctive habitats for bacteria." 
+- Ramanan et al. 2015 
+
+Bacteria and algae are the numerically dominate organisms in the aquatic environment. Through their co-evolution, these organisms have derived a wide range of symbiotic interactions that influence one another's physiology and metabolism. Interactions at the phycosphere can have consequences for the growth or decline of individual partners; on a community scale, these interactions can have broader implications for ecological stability and biogeochemical processing. 
+
+The relationships between bacteria and algae have intrigued and perplexed generations of scientists. The "Omics" revolution has improved the resolution and scale at which researchers investigate the complex interactions between bacteria and algae in natural waters. Coupled with traditional culture-based and biochemical analyses, -omics approaches can be used to identify functional relationships between organisms in complex communities.
+
+Through these studies, we revisit basic questions on bacterial-algal interactions, utilizing emerging -omics technologies to provide new insight and clarity on the dynamics between aquatic microbes. Through the lenses of environmental and public health microbiology, our goal is to understand these interactions and their implications for human and ecological health. 
+
+**CHAPTER 1:** Bloom or Bust: Vibrio Ecology in the Indian River Lagoon and St. Lucie Estuaries 
+
+**CHAPTER 2:** Genomic Investigation into the Community-Level Interactions between Bacteria and Algae in the Indian River Lagoon and St. Lucie Estuaries
+
+**CHAPTER 3:** Assessment of Microbial Fecal Pollution in Watersheds Impacted by Re-Occurring Algal Blooms in Eastern Florida
+	
