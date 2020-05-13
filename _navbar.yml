@@ -8,7 +8,7 @@ left:
       - text: "Professional Development"
         href: ./professional_development.html
   - text: "Outreach & Service"
-    href: ./Outreach.html
+    href: ./outreach.html
   - text: "Dissertation Research"
     menu:
       - text: "Introduction"
