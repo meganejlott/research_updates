@@ -30,15 +30,16 @@ We examined these dynamics in *Vibrio* abundance in relation to water temperatur
 
 This study aims to understand the drivers of *Vibrio* bloom dynamics. Using a time series approach, we examined *Vibrio* ecology between June and July 2019 in Florida's Indian River Lagoon (IRL) and St. Lucie Estuaries. 
 
-1.	**Objective Identify environmental drivers of *Vibrio* bloom dynamics in estuarine environments.** 
+1.**Objective Identify environmental drivers of *Vibrio* bloom dynamics in estuarine environments.** 
 
 The abundance of Vibrio spp. has been shown to increase rapidly in response to changes in biotic and abiotic factors of the aquatic environment. Numerous studies have reported correlations between Vibrio abundance and phytoplankton dynamics (Hsieh, Fries, and Noble 2007; Jesser and Noble 2018; Main et al. 2015; Turner et al. 2009). Evidence suggests that algal blooms may stimulate Vibrio growth and improve survival (Greenfield et al. 2017).In eutrophic marine waters, pulses of atmospheric-transported Saharan dust have been shown to promote Vibrio bloom formation (Borchardt et al. 2019; Westrich et al. 2018). These pulses of dust deposit micronutrients and particulate matter that are likely to drive Vibrio blooms. In this study, we examine how ephemeral events may stimulate rapid Vibrio growth.
 
-2.	**Examine the changes in *Vibrio* community composition during the succession of a *Vibrio* bloom event.** 
+2.**Examine the changes in *Vibrio* community composition during the succession of a *Vibrio* bloom event.**
+
 Using novel genomic sequencing of the Vibrio heat shock protein 60 (hsp60), we aim to identify species-level variations in Vibrio communities during a bloom event (Jesser and Noble 2018). We expect that opportunistic species of Vibrio will be predominant during a bloom event. We also expect that the particle-attached Vibrio community will be specialized and significantly different from that that of the free-living, planktonic Vibrio community (Jonathan J. Cole 1982; Main et al. 2015).  
 
 
-3.	**Evaluate changes in abundance of *Vibrio* spp. related to human health, based on measured ecological and biological factors.**
+3.**Evaluate changes in abundance of *Vibrio* spp. related to human health, based on measured ecological and biological factors.**
 
 Improvements in genomics technologies has improved our understanding of the ecological factors that drive the growth and persistence of pathogenic Vibrio spp (Jesser and Noble 2018; Diner 2019). By examining species-level changes in the *Vibrio* community, we can better understand how these blooms shape public health risks.
 
@@ -204,7 +205,10 @@ The peak in *Vibrio* abundance appears again to correspond with increases in AOD
 ![Figure 6. Correlations Between Biotic and Abiotic Factors in the IRL](./chapter1/envr_vars/irl_corrplot.png)
 
 
+
 ![Figure 7. Correlations Between Biotic and Abiotic Factors in the SLE](./chapter1/envr_vars/sle_corrplot.png)
+
+
 
 
 
