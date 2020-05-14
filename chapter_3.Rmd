@@ -54,7 +54,7 @@ In order to identify inhibition, an internal positive control (IPC) was included
 
 ![Figure 2. Enumerations of Somatic Coliphage from the Indian River Lagoon and St. Lucie Estuaries.](./chapter3/cn13.png)
 
-![Figure 3. Enumerations of Male-Specific COliphage from the Indian River Lagoon and St. Lucie Estuaries.](./chapter3/famp.png)
+![Figure 3. Enumerations of Male-Specific Coliphage from the Indian River Lagoon and St. Lucie Estuaries.](./chapter3/famp.png)
 
 
 

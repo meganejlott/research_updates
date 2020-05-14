@@ -1,0 +1,14 @@
+---
+title: "CHAPTER 4"
+output: html_document
+---
+
+## Friend or Foe: Vibro-Algal Interactions at the Phycosphere
+
+# MOTIVATION 
+
+Using our knowledge from previous investigations in Chapters 1 & 2, we propose to examine the relationship between predominant Vibrio species in the IRL and their identified algal partners/competitors. 
+
+We plan to design manipulate experiments to investigate the functional implications of these partnerships and the "fluidity" of these relationships under fluctuating environmental conditions. 
+
+![Summary of bacterial-algal symboises from Ramaman er al. 2015.](./ramanan_2015.png)

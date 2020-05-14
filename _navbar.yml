@@ -9,7 +9,7 @@ left:
         href: ./professional_development.html
   - text: "Outreach & Service"
     href: ./outreach.html
-  - text: "Dissertation Research"
+  - text: "Research"
     menu:
       - text: "Introduction"
         href: ./intro.html
@@ -19,8 +19,13 @@ left:
         href: ./chapter_2.html
       - text: "Chapter 3"
         href: ./chapter_3.html
-  - text: "Additional Research"
-    href: ./additional_research.html
+      - text: "Chapter 4"
+        href: ./chapter_4.html
+      - text: "Additional Research"
+        href: ./additional_research.html
+      - text: "Comprehensive Exam"
+        href: ./comp_exam.html
+
 right:
   - icon: fa-github fa-lg
     href: https://meganejlott.github.io/research_updates/

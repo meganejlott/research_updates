@@ -29,9 +29,9 @@ presentations %>% knitr::kable(caption = "Presentations to date.") %>% kable_sty
 ```
 
 
-# Metorship 
+# Mentorship 
 
-**University of Georgia (2018 - Present**
+**University of Georgia (2018 - Present)**
 Mentored for UGA Undergraduate Academic Research (Dpt. Environmental Health Sciences) and for UGA CURO Assistantship
 
 **University of North Carolina at Chapel Hill (2017 - 2018)**

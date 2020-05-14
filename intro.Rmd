@@ -23,4 +23,6 @@ Through these studies, we revisit basic questions on bacterial-algal interaction
 **CHAPTER 2:** Genomic Investigation into the Community-Level Interactions between Bacteria and Algae in the Indian River Lagoon and St. Lucie Estuaries
 
 **CHAPTER 3:** Assessment of Microbial Fecal Pollution in Watersheds Impacted by Re-Occurring Algal Blooms in Eastern Florida
+
+**CHAPTER 4:** Friend or Foe: Vibrio-Algal Interactions at the Phycosphere
 	

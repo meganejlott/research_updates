@@ -1,0 +1,44 @@
+---
+title: "COMPREHENSIVE EXAM"
+output: html_document
+---
+
+## Exam Format 
+
+Written Proposal 
+
+Oral Examination 
+
+
+## Research Topics
+
+Public health & enviornmental microbiology
+
+Infectious disease ecology
+
+Genomic technologies
+
+PurLyte SBIR
+
+
+
+## Proposal Format
+
+K-99
+
+USAID DIV Grant/NIH SBIR 
+
+
+
+
+## Timeline
+
+```{r comp exam timeline, echo = FALSE}
+library(tidyselect)
+library(kableExtra)
+
+copm_exam = read.csv("./comp_exam.csv")
+copm_exam %>% knitr::kable(caption = "Tentative Timeline for Comprehensive Exam.") %>% kable_styling()
+
+```
+
