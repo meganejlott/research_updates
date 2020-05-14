@@ -18,6 +18,11 @@ The relationships between bacteria and algae have intrigued and perplexed genera
 
 Through these studies, we revisit basic questions on bacterial-algal interactions, utilizing emerging -omics technologies to provide new insight and clarity on the dynamics between aquatic microbes. Through the lenses of environmental and public health microbiology, our goal is to understand these interactions and their implications for human and ecological health. 
 
+
+![Watersheds Impacted by Re-Occurring Algal Blooms in Eastern Florida.The Indian River Lagoon has experienced reoccuring blooms of the novel brown tide algae, *Aureoumbra lagunensis*. The St. Lucie Estuary has experienced reocurring blooms of the toxic blue-green algae *Microcystis aeruginosa*.](./chapter1/study_sites.png)
+
+
+
 **CHAPTER 1:** Bloom or Bust: Vibrio Ecology in the Indian River Lagoon and St. Lucie Estuaries 
 
 **CHAPTER 2:** Genomic Investigation into the Community-Level Interactions between Bacteria and Algae in the Indian River Lagoon and St. Lucie Estuaries
